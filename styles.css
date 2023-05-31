@@ -1,0 +1,147 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.weather-app {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.location-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.location-button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.location-button:hover {
+  background-color: #555;
+}
+
+.weather-card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.weather-icon {
+  font-size: 48px;
+  margin-right: 20px;
+}
+
+.temperature {
+  font-size: 24px;
+}
+
+.details-dropdown {
+  position: relative;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.open .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.arrow-icon {
+  transition: transform 0.5s;
+}
+
+.details-dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.details-dropdown-item {
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+
+.details-dropdown.open .details-dropdown-content {
+  max-height: 200px;
+}
+
+.weather-app.mobile {
+  margin: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.location-button {
+  font-size: 14px;
+}
+
+.weather-card {
+  padding: 10px;
+}
+
+.weather-info {
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.weather-icon {
+  font-size: 36px;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 18px;
+}
+
+.details-dropdown {
+  margin-top: 10px;
+  width: 160px;
+}
+
+.dropdown-header {
+  padding: 8px;
+}
+
+.details-dropdown-item {
+  padding: 8px;
+  font-size: 12px;
+}
+
